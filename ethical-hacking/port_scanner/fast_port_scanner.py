@@ -37,12 +37,10 @@ def port_scan(port):
 def scan_thread():
     global q
     while True:
-        # get the port number from the queue
+        # get the port number from the queue and scan
         worker = q.get()
-        # scan that port number
         port_scan(worker)
-        # tells the queue that the scanning for that port 
-        # is done
+        # tells the queue that the scanning for that port is done
         q.task_done()
 
 

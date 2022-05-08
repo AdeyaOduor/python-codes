@@ -1,6 +1,3 @@
-# python-codes
-
-![alt text](images/python_logo.ico) 
 # Python Code Tutorials
 This is a repository of all the tutorials of [The Python Code](https://www.thepythoncode.com) website.
 ## List of Tutorials

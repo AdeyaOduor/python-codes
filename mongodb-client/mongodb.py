@@ -3,8 +3,7 @@ from pprint import pprint
 
 # connect to the MongoDB server
 client = MongoClient()
-# or explicitly
-# client = MongoClient("localhost", 27017)
+# or explicitly client = MongoClient("localhost", 27017)
 # list all database names
 print("Available databases:", client.list_database_names())
 # access the database "python", this will create the actual database
